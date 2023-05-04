@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+div{
+    background-color: #79acb3;
+}
+h1{
+    color: #F96666;
+    margin: 0 auto 0 auto;
+    /*width:10%;*/
+    font-size: 5.65em;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    width:25px; 
+    margin-left:0px; 
+    margin-right:0px; 
+    flex-direction: row;
+}
+iframe{
+    width:"100px";
+    height:"200px" ;
+    /*position:absolute;
+    right:35%;*/
+    padding: 0;
+    border:0;
+    margin: 0;
+    /*frameBorder:"0";*/
+}
+hr{
+    margin:0;
+    padding: 0;
+
+}
+span{
+    margin-top: 5em;
+}
+
+/******************************************CLASS SELECTORS******************************************************/
+.top-container{
+    padding-top:10%;
+}
+.top-cloud{
+    position:absolute;
+    right:15%;
+    top:7%;
+}
+.bottom-cloud{
+    position:absolute;
+    left:auto;
+}
+.span{
+    text-decoration:underline;
+}
+.mypic{
+    padding: 1%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.skill2{
+    width: 100%;
+    height: 150px;
+    position:inherit;
+    /*float: right;*/
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.middle-container{
+    padding-top: 5%;
+}
+.head{
+    text-decoration: underline;
+    color: #F96666;
+}
+.giphy-embed2{
+    float: left;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.code-img{
+    width: 30%;
+    float: left;
+    padding: 5%;
+    margin-right: 30px;
+}
+.team-img{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+.follow{
+    width: 30%;
+    float: left;
+    padding: 5%;
+    margin-right: 30px;
+    cursor: default;
+}
+.social{
+    width: 30%;
+    padding: 5%;
+    margin-right: 30px;
+}
+.footer-link{
+
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066cc;
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(48, 32, 32) 0px 5px 5px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+        
+}
+.footer-link:hover{
+
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: white;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+    }
+/*****************************ID SELECTORS ********************************/
+#para{
+    clear: left;
+    font-size: 1.5em;
+}
