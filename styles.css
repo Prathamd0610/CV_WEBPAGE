@@ -130,7 +130,7 @@ span{
     align-items: center;
     cursor: pointer;
     font-family: Roboto, sans-serif;
-        
+    text-decoration:none;
 }
 .footer-link:hover{
 
