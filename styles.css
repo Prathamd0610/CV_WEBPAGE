@@ -120,13 +120,13 @@ span{
     font-size: 14px;
     color: #fff;
     background-color: #0066cc;
-    padding: 5px 10px;
+    padding: 5px 18px;
     border: 2px solid #0066cc;
     box-shadow: rgb(48, 32, 32) 0px 5px 5px 0px;
     border-radius: 50px;
     transition : 1000ms;
     transform: translateY(0);
-    display: flex;
+    display: inline-block;
     align-items: center;
     cursor: pointer;
     font-family: Roboto, sans-serif;
