@@ -118,6 +118,7 @@ span{
 
     font-weight: 0;
     font-size: 14px;
+    text-decoration: none;
     color: #fff;
     background-color: #0066cc;
     padding: 5px 18px;
@@ -130,7 +131,6 @@ span{
     align-items: center;
     cursor: pointer;
     font-family: Roboto, sans-serif;
-    text-decoration:none;
 }
 .footer-link:hover{
 
