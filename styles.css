@@ -24,6 +24,8 @@ button{
     margin-left:0px; 
     margin-right:0px; 
     flex-direction: row;
+    background-color: #79acb3;
+    border: none;
 }
 iframe{
     width:"100px";
@@ -70,8 +72,8 @@ span{
 .skill2{
     width: 100%;
     height: 150px;
-    position:inherit;
-    /*float: right;*/
+    position:relative;
+    float: right;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -145,4 +147,7 @@ span{
 #para{
     clear: left;
     font-size: 1.5em;
+}
+#extra-skill{
+    align-items: center;
 }
